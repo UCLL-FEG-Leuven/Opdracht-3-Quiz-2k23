@@ -59,5 +59,5 @@ app.post("/api/quiz", (req, res) => {
 
 // Starten van de server
 app.listen(3000, () => {
-    console.log("Server is listening...");
+    console.log("Server is listening on port 3000...");
 });
